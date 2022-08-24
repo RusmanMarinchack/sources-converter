@@ -1,0 +1,16 @@
+._container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main {
+    &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 15px 0;
+    }
+}

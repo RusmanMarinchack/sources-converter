@@ -1,0 +1,29 @@
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    height: 42px;
+    &:not(:last-child){
+        margin-bottom: 10px;
+    }
+    & input{
+        width: 65%;
+        height: 100%;
+        padding: 5px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+        background: transparent;
+
+    }
+
+    & select{
+        width: 35%;
+        height: 100%;
+        padding: 5px;
+        border: none;
+        background: transparent;
+        border-bottom: 1px solid black;
+    }
+}
